@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# ML Models & Data
+ml-service/models/*.joblib
+ml-service/models/*.pkl
+ml-service/data/raw/*.csv
+ml-service/data/raw/*.json
+ml-service/data/raw/*.yaml
+!ml-service/data/raw/.gitkeep
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
